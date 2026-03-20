@@ -32,7 +32,7 @@ Desenvolver um fluxo completo de dados que permita:
 ibovespa-ml-analysis/
 │
 ├── data/
-│   ├── COTAHIST_AAAAA.TXT  # dados brutos da B3
+│   ├── COTAHIST_AAAA.TXT  # dados brutos da B3
 │   └── all_ibovespa.csv    # gerado pelo ETL
 │
 ├── notebooks/
