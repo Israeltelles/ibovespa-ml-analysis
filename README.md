@@ -28,11 +28,12 @@ Desenvolver um fluxo completo de dados que permita:
 
 ## 📂 Estrutura do Projeto
 
+```bash
 ibovespa-ml-analysis/
 │
 ├── data/
-│   ├── COTAHIST_AAAAA.TXT (dados brutos da B3)
-│   └── all_ibovespa.csv (gerado pelo ETL)
+│   ├── COTAHIST_AAAAA.TXT  # dados brutos da B3
+│   └── all_ibovespa.csv    # gerado pelo ETL
 │
 ├── notebooks/
 │   └── analise_exploratoria.ipynb
@@ -41,7 +42,7 @@ ibovespa-ml-analysis/
 │   ├── etl_ibovespa.py
 │   └── previsao_acoes.py
 │
-├── resultado_modelo.csv (gerado pelo modelo)
+├── resultado_modelo.csv    # gerado pelo modelo
 └── README.md
 
 ---
