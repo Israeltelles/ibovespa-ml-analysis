@@ -188,4 +188,27 @@ Os arquivos originais da B3 não estão incluídos no repositório devido ao tam
 ## Observações
 
 * O modelo tem finalidade educacional e não deve ser utilizado para decisões financeiras reais
-* O mercado financeiro é influenciado por fatores externos não consid
+* O mercado financeiro é influenciado por fatores externos não considerados no modelo
+
+---
+
+## Possíveis Melhorias
+
+* Inclusão de mais ativos (PETR4, VALE3, etc.)
+* Implementação de indicadores técnicos adicionais
+* Uso de modelos mais avançados (LSTM, ARIMA)
+* Integração com banco de dados
+* Automatização do pipeline de dados
+* Aumento da quantidade de dados analisados
+
+---
+
+## Sobre
+
+Projeto desenvolvido com foco em aprendizado prático de:
+
+* Engenharia de Dados
+* Machine Learning
+* Análise de Dados
+
+Aberto a sugestões e melhorias.
