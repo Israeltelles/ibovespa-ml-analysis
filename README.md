@@ -1,10 +1,10 @@
-# 📊 Análise e Previsão de Ações - Ibovespa
+# Análise e Previsão de Ações - Ibovespa
 
 Projeto de análise de dados e machine learning utilizando dados históricos do Ibovespa (B3), com foco na construção de um pipeline completo de dados, incluindo ETL, engenharia de features, modelagem preditiva e visualização.
 
 ---
 
-## 🚀 Objetivo
+## Objetivo
 
 Desenvolver um fluxo completo de dados que permita:
 
@@ -16,7 +16,7 @@ Desenvolver um fluxo completo de dados que permita:
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * Python
 * Pandas
@@ -26,14 +26,14 @@ Desenvolver um fluxo completo de dados que permita:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 ibovespa-ml-analysis/
 │
 ├── data/
 │   ├── COTAHIST_AAAA.TXT  # dados brutos da B3
-│   └── all_ibovespa.csv    # gerado pelo ETL
+│   └── all_ibovespa.csv   # gerado pelo ETL
 │
 ├── notebooks/
 │   └── analise_exploratoria.ipynb
@@ -42,12 +42,13 @@ ibovespa-ml-analysis/
 │   ├── etl_ibovespa.py
 │   └── previsao_acoes.py
 │
-├── resultado_modelo.csv    # gerado pelo modelo
+├── resultado_modelo.csv   # gerado pelo modelo
 └── README.md
+```
 
 ---
 
-## 🔄 Pipeline do Projeto
+## Pipeline do Projeto
 
 ### 1. ETL
 
@@ -56,7 +57,7 @@ ibovespa-ml-analysis/
 * Conversão de datas e valores
 * Consolidação dos dados em um único dataset
 
-📄 Saída: `data/all_ibovespa.csv`
+Saída: `data/all_ibovespa.csv`
 
 ---
 
@@ -101,13 +102,13 @@ Geração de arquivo CSV contendo:
 * Preço real
 * Previsões dos modelos
 
-📄 Saída: `resultado_modelo.csv`
+Saída: `resultado_modelo.csv`
 
 Este arquivo pode ser utilizado no Power BI para visualização.
 
 ---
 
-## 📊 Visualização
+## Visualização
 
 Os dados foram preparados para uso em ferramentas de BI, permitindo:
 
@@ -117,7 +118,7 @@ Os dados foram preparados para uso em ferramentas de BI, permitindo:
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 ### 1. Clone o repositório
 
@@ -175,7 +176,7 @@ Esse arquivo pode ser utilizado no Power BI para visualização.
 
 ---
 
-## 📥 Dados
+## Dados
 
 Os arquivos originais da B3 não estão incluídos no repositório devido ao tamanho.
 
@@ -184,30 +185,7 @@ Os arquivos originais da B3 não estão incluídos no repositório devido ao tam
 
 ---
 
-## 📌 Observações
+## Observações
 
 * O modelo tem finalidade educacional e não deve ser utilizado para decisões financeiras reais
-* O mercado financeiro é influenciado por fatores externos não considerados no modelo
-
----
-
-## 🚀 Possíveis Melhorias
-
-* Inclusão de mais ativos (PETR4, VALE3, etc.)
-* Implementação de indicadores técnicos adicionais
-* Uso de modelos mais avançados (LSTM, ARIMA)
-* Integração com banco de dados
-* Automatização do pipeline de dados
-* Aumento da quantidade de dados analisados
-
----
-
-## 📎 Sobre
-
-Projeto desenvolvido com foco em aprendizado prático de:
-
-* Engenharia de Dados
-* Machine Learning
-* Análise de Dados
-
-Aberto a sugestões e melhorias 🚀
+* O mercado financeiro é influenciado por fatores externos não consid
